@@ -1,0 +1,56 @@
+/* PAGE STYLING */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* SECTION */
+.contact-section {
+    width: 450px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    text-align: center;
+}
+
+/* FORM */
+form {
+    margin-top: 20px;
+}
+
+/* LABELS */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* INPUTS & TEXTAREA & SELECT */
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
+/* TEXTAREA HEIGHT */
+textarea {
+    height: 80px;
+}
+
+/* SUBMIT BUTTON */
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
